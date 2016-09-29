@@ -27,8 +27,8 @@
       <file leaf-file-name="StringUtilTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/InterView/src/test/java/com/siksco/util/StringUtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,7 +192,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="JUnit.StringUtilTest">
@@ -677,11 +677,14 @@
       <option name="presentableId" value="Default" />
       <updated>1475106410353</updated>
       <workItem from="1475106411564" duration="769000" />
-      <workItem from="1475192390143" duration="648000" />
+      <workItem from="1475192390143" duration="810000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="StringUtilTest - 2016.09.30 at 08h 50m 38s.xml">
+      <configuration name="StringUtilTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="StringUtilTest_isPermutationTest - 2016.09.30 at 08h 48m 02s.xml">
       <configuration name="StringUtilTest.isPermutationTest" configurationId="JUnit" />
     </history-entry>
@@ -696,7 +699,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1417000" />
+    <option name="totallyTimeSpent" value="1579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1926" height="1057" extended-state="6" />
@@ -777,8 +780,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/InterView/src/test/java/com/siksco/util/StringUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="378">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

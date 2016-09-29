@@ -15,6 +15,9 @@ public class StringUtilTest {
         assertEquals(true, StringUtils.existChar(s));
     }
 
+    /**
+     * 순열인지 테스트.
+     */
     @Test
     public void isPermutationTest(){
         String s = "abcdef";

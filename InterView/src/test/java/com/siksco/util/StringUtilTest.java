@@ -14,4 +14,14 @@ public class StringUtilTest {
 
         assertEquals(true, StringUtils.existChar(s));
     }
+
+    @Test
+    public void isPermutationTest(){
+        String s = "abcdef";
+        String t = "bacfde";
+
+        boolean result = StringUtils.isPermutation(s, t);
+
+        assertEquals(true, result);
+    }
 }

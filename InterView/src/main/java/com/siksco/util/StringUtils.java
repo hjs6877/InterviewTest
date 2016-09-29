@@ -1,5 +1,7 @@
 package com.siksco.util;
 
+import java.awt.font.ImageGraphicAttribute;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -21,5 +23,18 @@ public class StringUtils {
         }
 
         return false;
+    }
+
+    public static boolean isPermutation(String s, String t) {
+        if(s.length() != t.length()){
+            return false;
+        }
+        return StringUtils.sort(s).equals(StringUtils.sort(t));
+    }
+
+    public static String sort(String s) {
+        char[] content = s.toCharArray();
+        Arrays.sort(content);
+        return new String(content);
     }
 }

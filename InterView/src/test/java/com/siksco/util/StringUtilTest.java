@@ -18,7 +18,7 @@ public class StringUtilTest {
     @Test
     public void isPermutationTest(){
         String s = "abcdef";
-        String t = "bacfde";
+        String t = "bacfed";
 
         boolean result = StringUtils.isPermutation(s, t);
 

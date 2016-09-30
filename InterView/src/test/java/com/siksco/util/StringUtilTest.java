@@ -16,7 +16,7 @@ public class StringUtilTest {
     }
 
     /**
-     * 순열인지 테스트..
+     * 순열인지 테스트.
      */
     @Test
     public void isPermutationTest(){

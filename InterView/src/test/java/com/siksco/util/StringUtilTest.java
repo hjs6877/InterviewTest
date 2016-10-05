@@ -27,4 +27,12 @@ public class StringUtilTest {
 
         assertEquals(true, result);
     }
+
+    @Test
+    public void isPermutationByCountTest(){
+        String s = "abcdefg";
+        String t = "fgadbce";
+
+        assertEquals(true, StringUtils.isPermutationByCount(s, t));
+    }
 }

@@ -35,4 +35,10 @@ public class StringUtilTest {
 
         assertEquals(true, StringUtils.isPermutationByCount(s, t));
     }
+
+    @Test
+    public void replaceSpaceToOtherTest(){
+        String s = "I am a boy.";
+        assertEquals("I%20am%20a%20boy.", StringUtils.replaceSpaceToOther(s));
+    }
 }

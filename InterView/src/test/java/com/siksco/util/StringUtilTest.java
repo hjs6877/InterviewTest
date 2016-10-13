@@ -41,4 +41,11 @@ public class StringUtilTest {
         String s = "I am a boy.";
         assertEquals("I%20am%20a%20boy.", StringUtils.replaceSpaceToOther(s));
     }
+
+    @Test
+    public void compressStringTest(){
+        String s = "aabccccca";
+
+        assertEquals("a2b1c5a1", StringUtils.compressString(s));
+    }
 }
